@@ -9,6 +9,8 @@ import matplotlib.pyplot as plt
 plt.imshow(X_train[0])
 plt.show()
 
+print(X_train)
+
 X_train = X_train.reshape(60000,28,28,1)
 X_test = X_test.reshape(10000,28,28,1)
 
